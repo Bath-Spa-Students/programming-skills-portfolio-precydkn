@@ -1,4 +1,4 @@
-course = "Creative Computing"
-yearLevel = "Year 1"
+course = "Creative Computing "
+yearLevel = "Year 1 "
 group = "Group 1"
-print (course, yearLevel, group)
+print (course + yearLevel + group)
