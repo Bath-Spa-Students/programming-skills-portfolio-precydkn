@@ -3,8 +3,9 @@ whitespace characters at the beginning and end of the name. Make sure you use ea
 once. Print the name once, so the whitespace around the name is displayed. Then print the name using each of the three stripping 
 functions, lstrip(), rstrip(), and strip()."""
 
+# storing a name with a space at the start and the end in a variable
 name = "\tPrecy\n"
-print(name)
-print(name.lstrip())
-print(name.rstrip())
-print(name.strip())
+print(name) # displays the name with spaces at the start and end of it
+print(name.lstrip()) # displays the name without the space at the start using lstrip
+print(name.rstrip()) # displays the name without the space at the end using rstrip
+print(name.strip()) # displays the name without the spaces at the start and the end using strip
