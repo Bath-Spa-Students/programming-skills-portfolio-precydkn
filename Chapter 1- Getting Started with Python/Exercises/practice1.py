@@ -2,4 +2,4 @@
 print('''W
 X
 Y
-Z''')
+Z''') # displays the three letters each on a separate line using three quotation marks
